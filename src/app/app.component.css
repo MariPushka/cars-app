@@ -109,6 +109,38 @@
   color:#030305
 }
 
+.car-toggle {
+  display: flex;
+  width: 194px;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.car-toggle div {
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.car-toggle div.active {
+  background: #030305;
+  color: #FFFFFF;
+}
+
+.car .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .car-items {
   display: flex;
   flex-wrap: wrap;
